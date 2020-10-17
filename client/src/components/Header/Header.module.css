@@ -1,0 +1,44 @@
+.navigation{
+    height: auto;
+    width: 100%;
+    padding: 1rem 0 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #56CCF2;
+}
+.navigation h2 {
+    margin: 0;
+}
+.navLinks{
+    margin-right: 0.65rem;
+    display: flex;
+    align-items: center;
+}
+.navLinks a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.15rem;
+    margin-right: 1.3rem;
+    font-weight: 300;
+}
+.brand{ 
+    display: flex;
+    align-items: center;
+    margin-left: 0.65rem;
+
+}
+.brand button{ 
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+    outline: none;
+  }  
+.brand a{ 
+    color: #fff;
+    font-size: 1.4rem;
+    text-decoration: none;
+    font-weight: bold;
+}

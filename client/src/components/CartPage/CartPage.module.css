@@ -1,0 +1,32 @@
+
+
+.cartWrapper{
+    width: 70%;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.cartProductImage{
+    max-width: 3rem;
+}
+
+/* Cart action styles */
+.cartAction{
+    margin-top: 5rem;
+    padding-bottom: 3rem;
+}
+.cartAction button {
+    margin-right: 1rem;
+}
+.cartAction h3{ 
+    font-weight: 700;
+ }
+ .cartAction h3:nth-child(2){
+     font-weight: bold;
+ }
+
+.emptyCart{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 7rem;
+}

@@ -1,0 +1,40 @@
+ 
+html{ 
+    box-sizing: border-box;
+    height: 100%;
+}
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+body > #root > div{ 
+    height: 100vh;
+}
+main{
+    min-height: 100vh;
+    position: relative;
+}
+.footer{
+    width: 100%;
+    background: #56CCF2;
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+}
+
+.back-btn{ 
+    margin: 1rem 0 0 1rem !important;
+}
+.create-product-btn{
+    margin: 1rem !important;
+    text-transform: capitalize!important;
+}
+
+.loader{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) ;
+    font-size: 2rem;
+}

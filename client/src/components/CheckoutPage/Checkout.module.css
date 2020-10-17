@@ -1,0 +1,148 @@
+.title{
+    text-align: center;
+    font-weight: 300;
+}
+/* Form for shipping details */
+.formTitle{
+    text-align: center;
+    color: #000000;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+.formWrapper{
+    width: 40%;
+    margin: auto;
+    background: #fff;
+    padding: 1.4rem;
+    box-shadow: 0px 0px 1.2rem .1rem rgba(176,189,185,1);
+}
+.formWrapper form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.formWrapper button{
+    width: 30%;
+    padding: 8px;
+    outline: none;
+    margin-top: .8rem;
+    cursor: pointer;
+}
+.formWrapper div{ 
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.formWrapper div a{
+    color: #f50057;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: .8rem;
+}
+.formWrapper input{
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: .1rem;
+    border: 1px solid lightgrey;
+    border-radius: 1rem;
+    outline: none;
+}
+/* Order info & payment styles*/
+.paymentWrapper{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;    
+}
+/* Order info styles */
+.orderInfo{
+    flex: 1 1 20rem;
+    margin-right: 2rem;
+}
+.shippingAddress{
+    width: 90%;
+    padding: 1rem;
+    border: 1px solid lightgray;
+    margin: 1rem;
+    border-radius: .5rem;
+}
+.shippingAddress h3 {
+    margin: 0rem;
+}
+.shippingAddress span {
+    margin-right: .5rem;
+    color: #909090;
+}
+.orderedProducts{
+    width: 90%;
+    padding: 1rem; 
+    border: 1px solid lightgray;
+    margin: 1rem;
+    border-radius: .5rem;
+    height: auto;
+}
+.productContainer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+.productContainer:first-child{
+    border-bottom: none;
+}
+.productContainer:not(:first-child){
+    border-bottom: none;
+}
+.productContainer img{
+    max-height: 10rem;
+    max-width: 5rem;
+}
+.productInfo {
+    display: flex;
+    justify-content: space-between;
+    margin: .5rem;
+}
+.productInfo .productName{
+    color: #f50057;
+    font-weight: bold;
+}
+
+.productInfo div span {
+    display: block;
+    margin-left: 1rem;
+}
+.productPrice{
+    margin: .5rem;
+}
+/* payment styles */
+.paymentInfoContainer{
+    max-height: 20rem;
+    max-width: 20rem;
+    border-radius: .5rem;
+    flex: 1 1 15rem;
+    margin-top: 1rem;
+    border: 1px solid lightgray;
+    padding: 1rem 1rem 0rem 1rem;
+}
+.orderSummary{
+    padding-bottom: 1rem;
+}
+.orderSummary div span {
+    margin-bottom: 1rem;
+}
+
+.orderSummary span {
+    display: block;
+}
+
+.orderSummary b{
+    font-weight: 400;
+}
+
+.orderTotalPrice{
+    font-size: 1.2rem;
+}

@@ -1,0 +1,88 @@
+.adminContent{ 
+    height: auto;
+}
+.title{
+    text-align: center;
+    font-weight: 300;
+}
+.tableHeader{ 
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+.tableWrapper{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 2rem;
+}
+.productHeader{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+.backBtn{ 
+    margin: 1rem 0 0 1rem!important;
+}
+.createProductBtn{
+    margin: 1rem !important;
+    text-transform: capitalize!important;
+}
+
+/* Form styles */
+.formTitle{
+    text-align: center;
+    color: #000000;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+.formWrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) ;
+    width: 28%;
+    height: auto;
+    background: #fff;
+    border-radius: 2rem;
+    padding: 1.4rem;
+    box-shadow: 0px 0px 1.2rem .1rem rgba(176,189,185,1);
+}
+.formWrapper form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.formWrapper button{
+    width: 30%;
+    padding: 8px;
+    outline: none;
+    margin-top: .8rem;
+    cursor: pointer;
+}
+.formWrapper button:last-child{
+    border-radius: 1rem;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+}
+.formWrapper div{ 
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.formWrapper div a{
+    color: #f50057;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: .8rem;
+}
+.formWrapper input{
+    margin-top: 1.5rem;
+    padding: .8rem;
+    border-radius: .1rem;
+    border: 2px solid lightgrey;
+    border-radius: 1rem;
+    outline: none;
+}
