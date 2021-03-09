@@ -1,5 +1,5 @@
 # FullStack-Estore
-This is e-commerce website app where you can create,update, and delete products. It also has cart feature implemented, as well as checkout and payment with paypal.
+This is an e-commerce web app where you can create,update, and delete products. It also has cart feature implemented, as well as checkout and payment with paypal.
 ## Demo
 https://viasella.herokuapp.com/ <br/>
 Demo with admin panel - https://viasella-admin.herokuapp.com/ (email: Admin@gmail.com, password: 123123123)
